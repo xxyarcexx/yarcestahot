@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+body {
+    margin: 0;
+    background: #b7faff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+}
+
+.container {
+    font-size: 60px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #f5f4f4;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+.informacion{
+    width: 50%;
+    height: 50%;
+    margin-top: auto;
+}
